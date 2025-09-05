@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacant Classroom Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); color: #333; min-height: 100vh; padding: 20px; display: flex; justify-content: center; align-items: center; }
+        .container { width: 100%; max-width: 1000px; background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.18); }
+        header { text-align: center; padding: 20px; margin-bottom: 20px; color: white; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
+        header p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; opacity: 0.9; }
+        .search-options { display: flex; gap: 15px; margin-bottom: 25px; }
+        .option-btn { flex: 1; padding: 15px; background: rgba(255, 255, 255, 0.2); border: none; border-radius: 12px; color: white; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; backdrop-filter: blur(5px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .option-btn.active { background: rgba(123, 74, 203, 0.6); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); }
+        .option-btn:hover { background: rgba(123, 74, 203, 0.5); }
+        .search-panel { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; margin-bottom: 25px; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .form-group { margin-bottom: 0; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: white; }
+        .form-control { width: 100%; padding: 14px 16px; background: rgba(255, 255, 255, 0.85); border: none; border-radius: 10px; font-size: 1rem; transition: all 0.3s; color: #333; }
+        .form-control:focus { outline: none; box-shadow: 0 0 0 3px rgba(166, 130, 255, 0.5); }
+        .btn { padding: 14px 25px; background: rgba(123, 74, 203, 0.8); color: white; border: none; border-radius: 10px; cursor: pointer; font-size: 1.1rem; font-weight: 600; transition: all 0.3s; width: 100%; backdrop-filter: blur(5px); margin-top: 10px; }
+        .btn:hover { background: rgba(103, 54, 183, 0.9); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
+        .results { margin-top: 30px; }
+        .results h3 { margin-bottom: 15px; color: white; text-align: center; font-size: 1.5rem; }
+        .classroom-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+        .classroom-card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 20px; border: 1px solid rgba(255, 255, 255, 0.1); color: white; transition: transform 0.3s; }
+        .classroom-card:hover { transform: translateY(-5px); background: rgba(255, 255, 255, 0.15); }
+        .classroom-card h4 { font-size: 1.3rem; margin-bottom: 10px; color: white; text-align: center; }
+        .classroom-card p { margin-bottom: 8px; display: flex; align-items: flex-start; gap: 10px; }
+        .classroom-card p i { margin-top: 4px; }
+        .status { display: inline-block; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-top: 10px; text-align: center; width: 100%; }
+        .status-vacant { background: rgba(46, 204, 113, 0.3); color: #fff; border: 1px solid rgba(46, 204, 113, 0.5); }
+        .status-occupied { background: rgba(231, 76, 60, 0.3); color: #fff; border: 1px solid rgba(231, 76, 60, 0.5); }
+        .footer { text-align: center; margin-top: 40px; color: white; opacity: 0.8; font-size: 0.9rem; }
+        .current-time { text-align: center; color: white; margin-bottom: 20px; font-size: 1.2rem; font-weight: 500; }
+        @media (max-width: 768px) { .form-grid { grid-template-columns: 1fr; } .classroom-list { grid-template-columns: 1fr; } .search-options { flex-direction: column; } header h1 { font-size: 2rem; } header p { font-size: 1rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-door-open"></i> Vacant Classroom Finder</h1>
+            <p>Find available classrooms and their schedules</p>
+        </header>
+
+        <div class="current-time">
+            <i class="fas fa-clock"></i> Current Time: <span id="live-clock">Loading...</span>
+        </div>
+
+        <div class="search-options">
+            <button class="option-btn active" id="live-btn"><i class="fas fa-play-circle"></i> Live Search</button>
+            <button class="option-btn" id="custom-btn"><i class="fas fa-search"></i> Custom Search</button>
+        </div>
+
+        <div class="search-panel" id="live-search-panel">
+            <div class="form-group">
+                <label for="live-floor">Select Floor</label>
+                <select class="form-control" id="live-floor" onchange="findClassrooms('live')">
+                    <option value="all">All Floors</option>
+                    <option value="1">Ground Floor</option>
+                    <option value="2">First Floor</option>
+                    <option value="3">Second Floor</option>
+                    <option value="4">Third Floor</option>
+                    <option value="5">Fourth Floor</option>
+                    <option value="6">Fifth Floor</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="search-panel" id="custom-search-panel" style="display: none;">
+             <div class="form-grid">
+                <div class="form-group">
+                    <label for="custom-floor">Select Floor</label>
+                    <select class="form-control" id="custom-floor">
+                        <option value="all">All Floors</option>
+                        <option value="1">Ground Floor</option>
+                        <option value="2">First Floor</option>
+                        <option value="3">Second Floor</option>
+                        <option value="4">Third Floor</option>
+                        <option value="5">Fourth Floor</option>
+                        <option value="6">Fifth Floor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="custom-day">Select Day</label>
+                    <select class="form-control" id="custom-day">
+                        <option value="MON">Monday</option>
+                        <option value="TUE">Tuesday</option>
+                        <option value="WED">Wednesday</option>
+                        <option value="THU">Thursday</option>
+                        <option value="FRI">Friday</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group" style="margin-top: 20px;">
+                <label for="custom-time">Select Time</label>
+                <input type="time" class="form-control" id="custom-time" value="09:30">
+            </div>
+            <button class="btn" onclick="findClassrooms('custom')"><i class="fas fa-search"></i> Find Classrooms</button>
+        </div>
+
+        <div class="results">
+            <h3 id="results-heading">Classroom Status</h3>
+            <div class="classroom-list" id="results-container"></div>
+        </div>
+
+        <div class="footer">
+            <p>Vacant Classroom Finder Project | DBMS Implementation</p>
+        </div>
+    </div>
+
+    <script>
+        let scheduledClasses = [];
+        let allClassrooms = [];
+
+        function generateClassroomList() {
+            const rooms = [];
+            const roomOrder = { "CR": 1, "LT": 2, "LAB": 3, "UBUNTU": 4, "TCL": 5, "VENUE": 6 };
+
+            // Ground Floor (floor 1)
+            for (let roomNum = 1; roomNum <= 7; roomNum++) rooms.push(`CR10${roomNum}`);
+            rooms.push("UBUNTULAB1");
+            rooms.push("UBUNTULAB2"); // Added missing room
+            rooms.push("TCL1");
+            rooms.push("LAB1"); // Added missing room
+
+            // Floors 2 to 6
+            for (let floor = 2; floor <= 6; floor++) {
+                for (let roomNum = 1; roomNum <= 7; roomNum++) rooms.push(`CR${floor}0${roomNum}`);
+                rooms.push(`LT${floor}01`);
+                rooms.push(`LT${floor}02`);
+                rooms.push(`LAB${floor}`);
+                if (floor <= 3) {
+                    rooms.push(`TCL${floor}`);
+                }
+                if (floor === 4) {
+                    rooms.push("TCL4"); // Added missing room
+                }
+            }
+
+            // Add special venues
+            rooms.push("VENUE1"); // Added missing venue
+            rooms.push("VENUE2"); // Added missing venue
+            rooms.push("LAB9"); // Added missing lab
+
+            // Custom sort logic: by floor, then by type (CR, LT, LAB, UBUNTU, TCL), then by name
+            return rooms.sort((a, b) => {
+                const getFloor = (name) => {
+                    const digits = name.replace(/[^0-9]/g, '');
+                    return digits ? parseInt(digits.charAt(0)) : 1; // default to 1 if no digits
+                };
+                const getType = (name) => {
+                    if (name.includes("UBUNTU")) return "UBUNTU";
+                    if (name.includes("TCL")) return "TCL";
+                    return name.split(/[- ]/)[0];
+                };
+
+                const floorA = getFloor(a);
+                const floorB = getFloor(b);
+                if (floorA !== floorB) return floorA - floorB;
+
+                const typeA = getType(a);
+                const typeB = getType(b);
+                if (roomOrder[typeA] !== roomOrder[typeB]) return roomOrder[typeA] - roomOrder[typeB];
+
+                return a.localeCompare(b, undefined, { numeric: true });
+            });
+        }
+
+        function timeToMinutes(timeStr) {
+            if (!timeStr || typeof timeStr !== 'string' || !timeStr.includes(':')) return 0;
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            let adjustedHours = hours;
+            if (hours < 8) adjustedHours += 12; // Adjust for PM times
+            return (adjustedHours * 60) + minutes;
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            allClassrooms = generateClassroomList();
+            fetch("timetable.json")
+                .then(response => {
+                    if (!response.ok) throw new Error(`Could not load timetable.json, status: ${response.status}`);
+                    return response.json();
+                })
+                .then(data => {
+                    scheduledClasses = data;
+                    console.log("✅ Timetable data loaded.");
+                    findClassrooms('live');
+                })
+                .catch(err => {
+                    console.error(err);
+                    document.getElementById('results-container').innerHTML = `<p style="color: #ffcccc; text-align: center; grid-column: 1 / -1;">Error: timetable.json could not be loaded.</p>`;
+                });
+
+            setInterval(updateClock, 1000);
+            updateClock();
+            setupPanelSwitching();
+        });
+
+        function updateClock() {
+            document.getElementById('live-clock').textContent = new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
+        }
+
+        function setupPanelSwitching() {
+            const liveBtn = document.getElementById('live-btn');
+            const customBtn = document.getElementById('custom-btn');
+            const livePanel = document.getElementById('live-search-panel');
+            const customPanel = document.getElementById('custom-search-panel');
+
+            liveBtn.addEventListener('click', () => {
+                liveBtn.classList.add('active'); customBtn.classList.remove('active');
+                livePanel.style.display = 'block'; customPanel.style.display = 'none';
+                findClassrooms('live');
+            });
+
+            customBtn.addEventListener('click', () => {
+                customBtn.classList.add('active'); liveBtn.classList.remove('active');
+                livePanel.style.display = 'none'; customPanel.style.display = 'block';
+            });
+        }
+
+        function findClassrooms(mode) {
+            let day, time, floor, heading;
+            const now = new Date();
+            const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+
+            if (mode === 'live') {
+                day = days[now.getDay()];
+                time = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+                floor = document.getElementById('live-floor').value;
+                heading = `Classroom Status Right Now (${day} ${time})`;
+            } else {
+                day = document.getElementById('custom-day').value;
+                time = document.getElementById('custom-time').value;
+                floor = document.getElementById('custom-floor').value;
+                heading = `Classroom Status on ${day} at ${time}`;
+            }
+
+            document.getElementById('results-heading').innerText = heading;
+
+            const filteredRooms = allClassrooms.filter(room => {
+                if (floor === 'all') return true;
+                const floorNumber = parseInt(floor);
+                const getFloor = (name) => parseInt(name.replace(/[^0-9]/g, '').charAt(0));
+                return getFloor(room) === floorNumber;
+            });
+
+            displayResults(filteredRooms, day, time);
+        }
+        
+        function getRoomStatus(roomName, day, time) {
+            const normalize = (name) => {
+                let processed = name.toUpperCase().replace(/[-_\s]/g, '');
+                if (processed.includes('UBUNTULAB')) {
+                    return processed; // keep UBUNTU prefix
+                }
+                if (processed.includes('TCL')) {
+                    return processed; // keep TCL prefix as is
+                }
+                const labMatch = processed.match(/LAB(\d+)/);
+                if (labMatch) return `LAB${labMatch[1]}`;
+                return processed;
+            };
+
+            const normalizedRoomName = normalize(roomName);
+            const searchTimeInMinutes = timeToMinutes(time);
+
+            console.log(`Checking room: ${roomName} -> ${normalizedRoomName}`);
+
+            const occupiedClasses = scheduledClasses.filter(c => {
+                if (!c.room || typeof c.room !== 'string') return false;
+
+                const normalizedJsonRoom = normalize(c.room);
+                console.log(`JSON room: ${c.room} -> ${normalizedJsonRoom}`);
+
+                if (normalizedJsonRoom === normalizedRoomName) {
+                    const startTimeInMinutes = timeToMinutes(c.startTime);
+                    // Fix: Use endTime as exclusive upper bound without subtracting 1 minute
+                    const logicalEndTimeInMinutes = timeToMinutes(c.endTime);
+                    const isDayMatch = (c.day === day);
+                    const isTimeMatch = (searchTimeInMinutes >= startTimeInMinutes && searchTimeInMinutes < logicalEndTimeInMinutes);
+                    console.log(`Match found for ${normalizedRoomName}: day=${isDayMatch}, time=${isTimeMatch}`);
+                    return isDayMatch && isTimeMatch;
+                }
+                return false;
+            });
+
+            console.log(`Room ${roomName} status: ${occupiedClasses.length > 0 ? 'Occupied' : 'Vacant'}`);
+            return occupiedClasses.length > 0 ? { status: 'Occupied', details: occupiedClasses } : { status: 'Vacant', details: null };
+        }
+
+        function displayResults(classrooms, day, time) {
+            const resultsContainer = document.getElementById('results-container');
+            resultsContainer.innerHTML = '';
+
+            if (classrooms.length === 0) {
+                resultsContainer.innerHTML = '<p style="color: white; text-align: center; grid-column: 1 / -1;">No classrooms match the selected floor.</p>';
+                return;
+            }
+
+            classrooms.forEach(roomName => {
+                const roomInfo = getRoomStatus(roomName, day, time);
+                const card = document.createElement('div');
+                card.className = 'classroom-card';
+                let detailsHTML = '';
+                let statusClass = '';
+
+                if (roomInfo.status === 'Occupied') {
+                    statusClass = 'occupied';
+                    // Correctly group subjects and sections for combined classes
+                    const subjects = [...new Set(roomInfo.details.map(c => c.subjectCode))].join(', ');
+                    const sections = roomInfo.details.map(c => c.section).join(', ');
+                    const { startTime, endTime } = roomInfo.details[0];
+
+                    detailsHTML = `
+                        <p><i class="fas fa-book"></i> <strong>Subject(s):</strong> ${subjects || "-"}</p>
+                        <p><i class="fas fa-users"></i> <strong>Section(s):</strong> ${sections || "-"}</p>
+                        <p><i class="fas fa-clock"></i> <strong>Scheduled:</strong> ${startTime} - ${endTime}</p>
+                    `;
+                } else {
+                    statusClass = 'vacant';
+                    detailsHTML = `
+                        <p><i class="fas fa-check-circle"></i> This classroom is currently available.</p>
+                        <p style="opacity:0;">-</p> 
+                        <p style="opacity:0;">-</p>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <h4>${roomName.startsWith("CR") ? "Room " : ""}${roomName}</h4>
+                    ${detailsHTML}
+                    <div class="status status-${statusClass}">${roomInfo.status.toUpperCase()}</div>
+                `;
+                resultsContainer.appendChild(card);
+                
+            });
+        }
+    </script>
+</body>
+</html>
