@@ -1,0 +1,4738 @@
+[
+  {
+    "section": "A1",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "A1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "A1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "A1",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "A1",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "A1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "A1",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "A1",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "A1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "A1",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "A1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT201"
+  },
+  {
+    "section": "A1",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "A1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL2"
+  },
+  {
+    "section": "A1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "A1",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "A1",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "A1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "A1",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "A1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "A1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 593",
+    "room": "Unknown"
+  },
+  {
+    "section": "A1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "A1",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "A1",
+    "day": "FRI",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "CR205"
+  },
+  {
+    "section": "A1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "LAB9"
+  },
+  {
+    "section": "A2",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "A2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "A2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "A2",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "A2",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "A2",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "A2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "A2",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "A2",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "A2",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "A2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "A2",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT201"
+  },
+  {
+    "section": "A2",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "A2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "A2",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "A2",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "A2",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "A2",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "A2",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "A2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "A2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 593",
+    "room": "Unknown"
+  },
+  {
+    "section": "A2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "A2",
+    "day": "FRI",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "CR205"
+  },
+  {
+    "section": "A2",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "B1",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL3"
+  },
+  {
+    "section": "B1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "B1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "B1",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "B1",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "B1",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "B1",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "B1",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "B1",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "CR204"
+  },
+  {
+    "section": "B1",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "B1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT301"
+  },
+  {
+    "section": "B1",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "B1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "B1",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "B1",
+    "day": "WED",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB9"
+  },
+  {
+    "section": "B1",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "B1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR203"
+  },
+  {
+    "section": "B1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 502",
+    "room": "LAB1"
+  },
+  {
+    "section": "B1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT202"
+  },
+  {
+    "section": "B1",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "B1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 509",
+    "room": "LT202"
+  },
+  {
+    "section": "B1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "B1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 593",
+    "room": "Unknown"
+  },
+  {
+    "section": "B1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "B2",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "B2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "B2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "B2",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "B2",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "B2",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "B2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "B2",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "B2",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "B2",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT301"
+  },
+  {
+    "section": "B2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "B2",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "B2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "B2",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "B2",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "B2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "B2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT202"
+  },
+  {
+    "section": "B2",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "B2",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB9"
+  },
+  {
+    "section": "B2",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 509",
+    "room": "LT202"
+  },
+  {
+    "section": "B2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 593",
+    "room": "Unknown"
+  },
+  {
+    "section": "B2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "B2",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL3"
+  },
+  {
+    "section": "B2",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "C1",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "C1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "C1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "C1",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "C1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL4"
+  },
+  {
+    "section": "C1",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "C1",
+    "day": "TUE",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL2"
+  },
+  {
+    "section": "C1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "C1",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "C1",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "XCS 501",
+    "room": "CR206"
+  },
+  {
+    "section": "C1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "C1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "C1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "C1",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "C1",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "C1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB9"
+  },
+  {
+    "section": "C1",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "C1",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "C1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT301"
+  },
+  {
+    "section": "C1",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "C1",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "C1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 591",
+    "room": "Unknown"
+  },
+  {
+    "section": "C1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "C1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR203"
+  },
+  {
+    "section": "C1",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "LAB9"
+  },
+  {
+    "section": "C2",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "C2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "C2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "C2",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "C2",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "C2",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "C2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "C2",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "C2",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "C2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "C2",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "C2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "C2",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "C2",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL2"
+  },
+  {
+    "section": "C2",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "C2",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "C2",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "C2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "LT301"
+  },
+  {
+    "section": "C2",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL3"
+  },
+  {
+    "section": "C2",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "C2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "C2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 591",
+    "room": "Unknown"
+  },
+  {
+    "section": "C2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 502",
+    "room": "LAB1"
+  },
+  {
+    "section": "C2",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "TCL1"
+  },
+  {
+    "section": "C2",
+    "day": "FRI",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "CS-1",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "CS-1",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "XCS 501",
+    "room": "CR205"
+  },
+  {
+    "section": "CS-1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "CS-1",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "CS-1",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 597",
+    "room": "CR204"
+  },
+  {
+    "section": "CS-1",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 597",
+    "room": "TCL3"
+  },
+  {
+    "section": "CS-1",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "CS-1",
+    "day": "TUE",
+    "startTime": "04:55",
+    "endTime": "05:50",
+    "subjectCode": "TCS 503",
+    "room": "LT202"
+  },
+  {
+    "section": "CS-1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "TCL4"
+  },
+  {
+    "section": "CS-1",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT201"
+  },
+  {
+    "section": "CS-1",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 597",
+    "room": "LT202"
+  },
+  {
+    "section": "CS-1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "CS-1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 592",
+    "room": "LT201"
+  },
+  {
+    "section": "CS-1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 597",
+    "room": "TCL4"
+  },
+  {
+    "section": "CS-1",
+    "day": "WED",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "CS-1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "CS-1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "CS-1",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "CS-1",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL4"
+  },
+  {
+    "section": "CS-1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 597",
+    "room": "LT301"
+  },
+  {
+    "section": "CS-1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "CS-1",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "CS-1",
+    "day": "FRI",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "XCS 501",
+    "room": "CR205"
+  },
+  {
+    "section": "D1",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 502",
+    "room": "CR204"
+  },
+  {
+    "section": "D1",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "D1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "D1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "D1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "D1",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "D1",
+    "day": "TUE",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "D1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 502",
+    "room": "CR206"
+  },
+  {
+    "section": "D1",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "D1",
+    "day": "TUE",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "D1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "D1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 502",
+    "room": "LAB3"
+  },
+  {
+    "section": "D1",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "D1",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "D1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 503",
+    "room": "TCL2"
+  },
+  {
+    "section": "D1",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "D1",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "D1",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "D1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 502",
+    "room": "CR104"
+  },
+  {
+    "section": "D1",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "D1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "D1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 591",
+    "room": "Unknown"
+  },
+  {
+    "section": "D1",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "XCS 501",
+    "room": "CR202"
+  },
+  {
+    "section": "D1",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "D1",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "D2",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "D2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "D2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "D2",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "D2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 502",
+    "room": "CR202"
+  },
+  {
+    "section": "D2",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "D2",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL3"
+  },
+  {
+    "section": "D2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "LT302"
+  },
+  {
+    "section": "D2",
+    "day": "TUE",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "D2",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "D2",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "CR202"
+  },
+  {
+    "section": "D2",
+    "day": "WED",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "D2",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "D2",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "D2",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "D2",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "D2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "D2",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "D2",
+    "day": "THU",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "CR204"
+  },
+  {
+    "section": "D2",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "D2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "D2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 591",
+    "room": "Unknown"
+  },
+  {
+    "section": "D2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "D2",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "TCL2"
+  },
+  {
+    "section": "D2",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "DS-1",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-1",
+    "day": "MON",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-1",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 562",
+    "room": "TCL4"
+  },
+  {
+    "section": "DS-1",
+    "day": "MON",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 562",
+    "room": "CR204"
+  },
+  {
+    "section": "DS-1",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "DS-1",
+    "day": "TUE",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-1",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 562",
+    "room": "CR204"
+  },
+  {
+    "section": "DS-1",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-1",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "TCL3"
+  },
+  {
+    "section": "DS-1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 562",
+    "room": "TCL4"
+  },
+  {
+    "section": "DS-1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 511",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-1",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-1",
+    "day": "WED",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "DS-1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL4"
+  },
+  {
+    "section": "DS-1",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 511",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-1",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "TCL3"
+  },
+  {
+    "section": "DS-1",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 562",
+    "room": "CR207"
+  },
+  {
+    "section": "DS-1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-1",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-1",
+    "day": "FRI",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "DS-1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "DS-2",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-2",
+    "day": "MON",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-2",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "DS-2",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "DS-2",
+    "day": "TUE",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-2",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 562",
+    "room": "CR203"
+  },
+  {
+    "section": "DS-2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-2",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "DS-2",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "DS-2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 511",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-2",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-2",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 562",
+    "room": "TCL3"
+  },
+  {
+    "section": "DS-2",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 562",
+    "room": "CR202"
+  },
+  {
+    "section": "DS-2",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 511",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-2",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "DS-2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "LAB3"
+  },
+  {
+    "section": "DS-2",
+    "day": "THU",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "XCS 501",
+    "room": "CR206"
+  },
+  {
+    "section": "DS-2",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-2",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "DS-2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 562",
+    "room": "TCL3"
+  },
+  {
+    "section": "DS-2",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "DS-2",
+    "day": "FRI",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 562",
+    "room": "CR206"
+  },
+  {
+    "section": "E1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "E1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "E1",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "E1",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "E1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB9"
+  },
+  {
+    "section": "E1",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "E1",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "E1",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 502",
+    "room": "LAB9"
+  },
+  {
+    "section": "E1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "E1",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "E1",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "CR203"
+  },
+  {
+    "section": "E1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "E1",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "E1",
+    "day": "WED",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "E1",
+    "day": "WED",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "CR201"
+  },
+  {
+    "section": "E1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL3"
+  },
+  {
+    "section": "E1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "E1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "E1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 591",
+    "room": "Unknown"
+  },
+  {
+    "section": "E1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "LAB9"
+  },
+  {
+    "section": "E1",
+    "day": "THU",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 511",
+    "room": "CR202"
+  },
+  {
+    "section": "E1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "E1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "E1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "E1",
+    "day": "FRI",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "E2",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL4"
+  },
+  {
+    "section": "E2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "E2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "E2",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "E2",
+    "day": "MON",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "XCS 501",
+    "room": "CR202"
+  },
+  {
+    "section": "E2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "E2",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "E2",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 511",
+    "room": "CR202"
+  },
+  {
+    "section": "E2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "E2",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "E2",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "E2",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "CR203"
+  },
+  {
+    "section": "E2",
+    "day": "WED",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "E2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "LAB9"
+  },
+  {
+    "section": "E2",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "CR204"
+  },
+  {
+    "section": "E2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "E2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 591",
+    "room": "Unknown"
+  },
+  {
+    "section": "E2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL4"
+  },
+  {
+    "section": "E2",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "E2",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "E2",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "CR201"
+  },
+  {
+    "section": "E2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB9"
+  },
+  {
+    "section": "E2",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "E2",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "XCS 501",
+    "room": "CR202"
+  },
+  {
+    "section": "E2",
+    "day": "FRI",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "F1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "F1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "F1",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "TCL2"
+  },
+  {
+    "section": "F1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "F1",
+    "day": "MON",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "F1",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "F1",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "F1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL1"
+  },
+  {
+    "section": "F1",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB1"
+  },
+  {
+    "section": "F1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "F1",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT301"
+  },
+  {
+    "section": "F1",
+    "day": "WED",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "F1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "F1",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "F1",
+    "day": "WED",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "F1",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "F1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "F1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "F1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "F1",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "F1",
+    "day": "THU",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "XCS 501",
+    "room": "CR207"
+  },
+  {
+    "section": "F1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL2"
+  },
+  {
+    "section": "F1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL2"
+  },
+  {
+    "section": "F1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "F1",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "F2",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 503",
+    "room": "TCL2"
+  },
+  {
+    "section": "F2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "F2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "F2",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "F2",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "F2",
+    "day": "MON",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "F2",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "F2",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "F2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "XCS 501",
+    "room": "CR203"
+  },
+  {
+    "section": "F2",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "F2",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT301"
+  },
+  {
+    "section": "F2",
+    "day": "WED",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "F2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "F2",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "F2",
+    "day": "WED",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "F2",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "F2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "F2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "F2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "F2",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "F2",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL2"
+  },
+  {
+    "section": "F2",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "F2",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB1"
+  },
+  {
+    "section": "F2",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "LAB3"
+  },
+  {
+    "section": "F2",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "G1",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "G1",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "CR206"
+  },
+  {
+    "section": "G1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "G1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "G1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "G1",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "G1",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 509",
+    "room": "CR202"
+  },
+  {
+    "section": "G1",
+    "day": "TUE",
+    "startTime": "04:55",
+    "endTime": "05:50",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "G1",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "CR104"
+  },
+  {
+    "section": "G1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "G1",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB3"
+  },
+  {
+    "section": "G1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "LAB3"
+  },
+  {
+    "section": "G1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 511",
+    "room": "CR104"
+  },
+  {
+    "section": "G1",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "G1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "G1",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "G1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "G1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "G1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "G1",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 509",
+    "room": "CR206"
+  },
+  {
+    "section": "G1",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "CR104"
+  },
+  {
+    "section": "G1",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "G1",
+    "day": "FRI",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "G1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "G1",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL2"
+  },
+  {
+    "section": "G2",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR201"
+  },
+  {
+    "section": "G2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "G2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "G2",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "G2",
+    "day": "MON",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "CR104"
+  },
+  {
+    "section": "G2",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "G2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 509",
+    "room": "CR204"
+  },
+  {
+    "section": "G2",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "G2",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 511",
+    "room": "CR203"
+  },
+  {
+    "section": "G2",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "G2",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "CR206"
+  },
+  {
+    "section": "G2",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "G2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "G2",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL1"
+  },
+  {
+    "section": "G2",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "G2",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT301"
+  },
+  {
+    "section": "G2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "G2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "G2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "G2",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB2"
+  },
+  {
+    "section": "G2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "G2",
+    "day": "FRI",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "G2",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "CR203"
+  },
+  {
+    "section": "G2",
+    "day": "FRI",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 511",
+    "room": "CR203"
+  },
+  {
+    "section": "H1",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "H1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "H1",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "H1",
+    "day": "MON",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 511",
+    "room": "CR104"
+  },
+  {
+    "section": "H1",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "CR206"
+  },
+  {
+    "section": "H1",
+    "day": "TUE",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "H1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL2"
+  },
+  {
+    "section": "H1",
+    "day": "TUE",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "LAB1"
+  },
+  {
+    "section": "H1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR204"
+  },
+  {
+    "section": "H1",
+    "day": "WED",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "THU",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "CR203"
+  },
+  {
+    "section": "H1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "H1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "H1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "H1",
+    "day": "THU",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "H1",
+    "day": "FRI",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "XCS 501",
+    "room": "CR203"
+  },
+  {
+    "section": "H1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "H1",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "H1",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL3"
+  },
+  {
+    "section": "H2",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "H2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "H2",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 502",
+    "room": "TCL2"
+  },
+  {
+    "section": "H2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL4"
+  },
+  {
+    "section": "H2",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "H2",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 511",
+    "room": "CR104"
+  },
+  {
+    "section": "H2",
+    "day": "TUE",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "WED",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "WED",
+    "startTime": "04:55",
+    "endTime": "05:50",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "H2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "LAB3"
+  },
+  {
+    "section": "H2",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "CR204"
+  },
+  {
+    "section": "H2",
+    "day": "WED",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "H2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "H2",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL2"
+  },
+  {
+    "section": "H2",
+    "day": "THU",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 509",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "XCS 501",
+    "room": "CR203"
+  },
+  {
+    "section": "H2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "H2",
+    "day": "FRI",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "CR201"
+  },
+  {
+    "section": "H2",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "H2",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "CR205"
+  },
+  {
+    "section": "H2",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "TCL4"
+  },
+  {
+    "section": "I1",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 511",
+    "room": "CR201"
+  },
+  {
+    "section": "I1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "I1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "I1",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "I1",
+    "day": "MON",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "CR203"
+  },
+  {
+    "section": "I1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 503",
+    "room": "TCL3"
+  },
+  {
+    "section": "I1",
+    "day": "TUE",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "XCS 501",
+    "room": "CR206"
+  },
+  {
+    "section": "I1",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "I1",
+    "day": "TUE",
+    "startTime": "04:55",
+    "endTime": "05:50",
+    "subjectCode": "TCS 503",
+    "room": "LT202"
+  },
+  {
+    "section": "I1",
+    "day": "TUE",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 509",
+    "room": "CR202"
+  },
+  {
+    "section": "I1",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL2"
+  },
+  {
+    "section": "I1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL4"
+  },
+  {
+    "section": "I1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE2"
+  },
+  {
+    "section": "I1",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "I1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "I1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "I1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "I1",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 502",
+    "room": "LT302"
+  },
+  {
+    "section": "I1",
+    "day": "THU",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 511",
+    "room": "CR203"
+  },
+  {
+    "section": "I1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 502",
+    "room": "TCL3"
+  },
+  {
+    "section": "I1",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "I1",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 503",
+    "room": "TCL1"
+  },
+  {
+    "section": "I1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 509",
+    "room": "CR104"
+  },
+  {
+    "section": "I1",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT302"
+  },
+  {
+    "section": "I1",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "CR202"
+  },
+  {
+    "section": "ML-1",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 564",
+    "room": "LAB9"
+  },
+  {
+    "section": "ML-1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-1",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-1",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 564",
+    "room": "CR202"
+  },
+  {
+    "section": "ML-1",
+    "day": "MON",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-1",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "ML-1",
+    "day": "TUE",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "ML-1",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "ML-1",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "LAB9"
+  },
+  {
+    "section": "ML-1",
+    "day": "TUE",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "TCS 545",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-1",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-1",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "TCL3"
+  },
+  {
+    "section": "ML-1",
+    "day": "WED",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-1",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "XCS 501",
+    "room": "CR206"
+  },
+  {
+    "section": "ML-1",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-1",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL3"
+  },
+  {
+    "section": "ML-1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-1",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-1",
+    "day": "THU",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "XCS 501",
+    "room": "CR202"
+  },
+  {
+    "section": "ML-1",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 564",
+    "room": "CR206"
+  },
+  {
+    "section": "ML-1",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-1",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "ML-1",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "ML-1",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "ML-1",
+    "day": "FRI",
+    "startTime": "04:55",
+    "endTime": "05:50",
+    "subjectCode": "TCS 564",
+    "room": "CR202"
+  },
+  {
+    "section": "ML-1",
+    "day": "FRI",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 564",
+    "room": "TCL4"
+  },
+  {
+    "section": "ML-2",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR206"
+  },
+  {
+    "section": "ML-2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-2",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-2",
+    "day": "MON",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 564",
+    "room": "LAB1"
+  },
+  {
+    "section": "ML-2",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "ML-2",
+    "day": "MON",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-2",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "ML-2",
+    "day": "TUE",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "ML-2",
+    "day": "TUE",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "ML-2",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 564",
+    "room": "LT302"
+  },
+  {
+    "section": "ML-2",
+    "day": "TUE",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-2",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-2",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "TCS 545",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-2",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "ML-2",
+    "day": "WED",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-2",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 564",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "ML-2",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-2",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "TCS 564",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-2",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-2",
+    "day": "THU",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-2",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "ML-2",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT302"
+  },
+  {
+    "section": "ML-2",
+    "day": "FRI",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 502",
+    "room": "LT301"
+  },
+  {
+    "section": "ML-2",
+    "day": "FRI",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL4"
+  },
+  {
+    "section": "ML-2",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "ML-3",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-3",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-3",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-3",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-3",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-3",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "TCS 545",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-3",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "ML-3",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 564",
+    "room": "TCL1"
+  },
+  {
+    "section": "ML-3",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-3",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 564",
+    "room": "LT302"
+  },
+  {
+    "section": "ML-3",
+    "day": "TUE",
+    "startTime": "12:55",
+    "endTime": "01:50",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "ML-3",
+    "day": "WED",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "TCL2"
+  },
+  {
+    "section": "ML-3",
+    "day": "WED",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-3",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "ML-3",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "ML-3",
+    "day": "WED",
+    "startTime": "12:00",
+    "endTime": "01:50",
+    "subjectCode": "PCS 511",
+    "room": "TCL4"
+  },
+  {
+    "section": "ML-3",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "TCS 564",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-3",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-3",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-3",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 564",
+    "room": "TCL3"
+  },
+  {
+    "section": "ML-3",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PCS 503",
+    "room": "LAB1"
+  },
+  {
+    "section": "ML-3",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-3",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "XCS 501",
+    "room": "CR206"
+  },
+  {
+    "section": "ML-3",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "ML-3",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-3",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-4",
+    "day": "MON",
+    "startTime": "02:10",
+    "endTime": "03:05",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-4",
+    "day": "MON",
+    "startTime": "03:05",
+    "endTime": "04:00",
+    "subjectCode": "TCS 503",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-4",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-4",
+    "day": "MON",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 584",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-4",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-4",
+    "day": "MON",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "TCS 545",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-4",
+    "day": "MON",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "CR205"
+  },
+  {
+    "section": "ML-4",
+    "day": "TUE",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 511",
+    "room": "TCL1"
+  },
+  {
+    "section": "ML-4",
+    "day": "TUE",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "PCS 503",
+    "room": "TCL4"
+  },
+  {
+    "section": "ML-4",
+    "day": "TUE",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 502",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-4",
+    "day": "TUE",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 564",
+    "room": "LT302"
+  },
+  {
+    "section": "ML-4",
+    "day": "WED",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 564",
+    "room": "TCL2"
+  },
+  {
+    "section": "ML-4",
+    "day": "WED",
+    "startTime": "08:00",
+    "endTime": "08:55",
+    "subjectCode": "XCS 501",
+    "room": "CR202"
+  },
+  {
+    "section": "ML-4",
+    "day": "WED",
+    "startTime": "08:55",
+    "endTime": "09:50",
+    "subjectCode": "CEC",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-4",
+    "day": "WED",
+    "startTime": "10:10",
+    "endTime": "11:05",
+    "subjectCode": "TCS 511",
+    "room": "LT301"
+  },
+  {
+    "section": "ML-4",
+    "day": "WED",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "CR205"
+  },
+  {
+    "section": "ML-4",
+    "day": "THU",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "TCS 564",
+    "room": "LT202"
+  },
+  {
+    "section": "ML-4",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "ELECTIVE",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-4",
+    "day": "THU",
+    "startTime": "04:00",
+    "endTime": "05:50",
+    "subjectCode": "TCS 552",
+    "room": "Unknown"
+  },
+  {
+    "section": "ML-4",
+    "day": "THU",
+    "startTime": "08:00",
+    "endTime": "09:50",
+    "subjectCode": "PCS 503",
+    "room": "UBUNTULAB1"
+  },
+  {
+    "section": "ML-4",
+    "day": "THU",
+    "startTime": "10:10",
+    "endTime": "12:00",
+    "subjectCode": "PESE 500",
+    "room": "VENUE1"
+  },
+  {
+    "section": "ML-4",
+    "day": "THU",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 502",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-4",
+    "day": "FRI",
+    "startTime": "02:10",
+    "endTime": "04:00",
+    "subjectCode": "PCS 564",
+    "room": "TCL4"
+  },
+  {
+    "section": "ML-4",
+    "day": "FRI",
+    "startTime": "04:00",
+    "endTime": "04:55",
+    "subjectCode": "XCS 501",
+    "room": "CR104"
+  },
+  {
+    "section": "ML-4",
+    "day": "FRI",
+    "startTime": "11:05",
+    "endTime": "12:00",
+    "subjectCode": "TCS 503",
+    "room": "LT201"
+  },
+  {
+    "section": "ML-4",
+    "day": "FRI",
+    "startTime": "12:00",
+    "endTime": "12:55",
+    "subjectCode": "TCS 511",
+    "room": "LT202"
+  }
+]
