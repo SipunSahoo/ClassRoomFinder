@@ -37,7 +37,17 @@
         .status-occupied { background: rgba(231, 76, 60, 0.3); color: #fff; border: 1px solid rgba(231, 76, 60, 0.5); }
         .footer { text-align: center; margin-top: 40px; color: white; opacity: 0.8; font-size: 0.9rem; }
         .current-time { text-align: center; color: white; margin-bottom: 20px; font-size: 1.2rem; font-weight: 500; }
-        @media (max-width: 768px) { .form-grid { grid-template-columns: 1fr; } .classroom-list { grid-template-columns: 1fr; } .search-options { flex-direction: column; } header h1 { font-size: 2rem; } header p { font-size: 1rem; } }
+@media (max-width: 768px) { 
+    .form-grid { grid-template-columns: 1fr; } 
+    .classroom-list { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; }
+    .classroom-card { padding: 10px; min-width: 100px; }
+    .classroom-card h4 { font-size: 1rem; margin-bottom: 5px; }
+    .classroom-card p { font-size: 0.8rem; margin-bottom: 5px; }
+    .status { font-size: 0.7rem; padding: 4px 8px; margin-top: 5px; }
+    .search-options { flex-direction: column; } 
+    header h1 { font-size: 2rem; } 
+    header p { font-size: 1rem; } 
+}
     </style>
 </head>
 <body>
