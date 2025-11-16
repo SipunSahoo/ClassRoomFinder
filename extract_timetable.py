@@ -5,9 +5,9 @@ import sys
 import pdfplumber
 from datetime import datetime
 
-sys.stdout.reconfigure(encoding="utf-8")
 
-def time_to_minutes(time_str):
+
+def time_to_minutes(time_str):  #"09:30" → 570 minutes
     """Convert time string to minutes since midnight"""
     try:
         # Handle both "HH:MM" and "H:MM" formats
@@ -15,13 +15,13 @@ def time_to_minutes(time_str):
         hours = int(time_parts[0])
         minutes = int(time_parts[1])
 
-        # Validate hours and minutes
+        # Validate hours within 0–23 and minute is 0–59.
         if hours < 0 or hours > 23 or minutes < 0 or minutes > 59:
             print(f"Warning: Invalid time format: {time_str}")
             return 0
 
         return (hours * 60) + minutes
-    except (ValueError, IndexError):
+    except (ValueError, IndexError): #exception if time pattern error
         print(f"Warning: Could not parse time: {time_str}")
         return 0
 
@@ -115,7 +115,7 @@ def parse_cell_content(content):
 
 def extract_timetable(pdf_path):
     if not os.path.exists(pdf_path):
-        print(f"❌ Error: The file '{pdf_path}' was not found.")
+        print(f" Error: The file '{pdf_path}' was not found.")
         return None
     
     all_schedule_entries = []
@@ -148,9 +148,9 @@ def extract_timetable(pdf_path):
                         else:
                             section = course_name
                             
-                        print(f"⚠️ Warning: 'Section' not found. Using cleaned 'Course' name as section: {section}...")
+                        print(f" Warning: 'Section' not found. Using cleaned 'Course' name as section: {section}...")
                     else:
-                        print(f"⚠️ Warning: Could not find 'Section' or 'Course' name on page {page_num + 1}. Using page number as section.")
+                        print(f" Warning: Could not find 'Section' or 'Course' name on page {page_num + 1}. Using page number as section.")
                         section = f"Page_{page_num + 1}"
                 
                 tables = page.extract_tables()
@@ -241,11 +241,11 @@ def extract_timetable(pdf_path):
                                 })
                         except Exception as e:
                             # Skip cells that cause errors during processing
-                            print(f"⚠️ Warning: Skipping cell at row {row_idx+2}, col {col_idx+1}: {str(e)}")
+                            print(f" Warning: Skipping cell at row {row_idx+2}, col {col_idx+1}: {str(e)}")
                             continue
     
     except Exception as e:
-        print(f"❌ An error occurred while processing '{pdf_path}': {e}")
+        print(f" An error occurred while processing '{pdf_path}': {e}")
         return None
     
     return all_schedule_entries
@@ -264,15 +264,7 @@ def convert_to_24hr(time_str):
             minute = parts[1]
             
             # For timetable contexts in India, we need to determine AM/PM based on context
-            # Typical Indian college timetable pattern:
-            # - Morning classes: 8:00, 9:00, 10:00, 11:00 (AM)
-            # - Afternoon classes: 12:00, 1:00, 2:00, 3:00, 4:00, 5:00 (PM)
-            
-            # Since we don't have AM/PM indicators, we need to use context:
-            # - If hour is 12, it's 12:00 (noon)
-            # - If hour is less than 8, it's probably PM (e.g., 1:00 PM -> 13:00, 2:00 PM -> 14:00)
-            # - If hour is 8 or more, it's AM (e.g., 8:00 AM -> 08:00, 9:00 AM -> 09:00)
-            
+           
             if hour < 8:
                 # Times like 1:00, 2:00, etc. are PM in college timetables
                 hour += 12
@@ -285,7 +277,7 @@ def convert_to_24hr(time_str):
 def clean_duplicates(entries):
     """Remove true duplicates (same room, day, time, subject, AND section)"""
     
-    print("🧹 Removing true duplicates...")
+    print(" Removing true duplicates...")
     
     # Track seen entries to remove duplicates
     seen = set()
@@ -309,8 +301,8 @@ def clean_duplicates(entries):
         else:
             duplicates_removed += 1
     
-    print(f"📋 Removed {duplicates_removed} true duplicate entries")
-    print(f"📊 Final unique entries: {len(unique_entries)}")
+    print(f" Removed {duplicates_removed} true duplicate entries")
+    print(f" Final unique entries: {len(unique_entries)}")
     
     return unique_entries
 
@@ -324,7 +316,7 @@ if __name__ == "__main__":
     
     pdf_files = [f for f in os.listdir(pdf_folder) if f.lower().endswith('.pdf')]
     if not pdf_files:
-        print(f"\n❌ Error: No PDF files found in the '{pdf_folder}' directory.")
+        print(f"\n Error: No PDF files found in the '{pdf_folder}' directory.")
         sys.exit(1)
     
     for pdf_file_name in pdf_files:
@@ -334,9 +326,9 @@ if __name__ == "__main__":
         timetable_data = extract_timetable(full_pdf_path)
         if timetable_data:
             all_extracted_data.extend(timetable_data)
-            print(f"✅ Extracted {len(timetable_data)} new entries from '{pdf_file_name}'.")
+            print(f" Extracted {len(timetable_data)} new entries from '{pdf_file_name}'.")
         else:
-            print(f"❌ Failed to extract data from '{pdf_file_name}'.")
+            print(f" Failed to extract data from '{pdf_file_name}'.")
     
     # Filter out entries with Unknown time or room
     clean_entries = []
@@ -348,7 +340,7 @@ if __name__ == "__main__":
             d.get('room') != "Unknown"):
             clean_entries.append(d)
     
-    print(f"📊 After basic filtering: {len(clean_entries)} entries")
+    print(f" After basic filtering: {len(clean_entries)} entries")
     
     # Remove only true duplicates (same everything)
     final_data = clean_duplicates(clean_entries)
@@ -364,8 +356,8 @@ if __name__ == "__main__":
         json.dump(final_data, f, indent=2, ensure_ascii=False)
     
     print(f"\n--- Processing Complete ---")
-    print(f"✅ Success! Total of {len(final_data)} clean entries from all PDFs saved to '{output_json_file}'.")
-    print(f"⚠️  Filtered out {len(all_extracted_data) - len(final_data)} entries with unknown time or room or duplicates.")
+    print(f" Success! Total of {len(final_data)} clean entries from all PDFs saved to '{output_json_file}'.")
+    print(f" Filtered out {len(all_extracted_data) - len(final_data)} entries with unknown time or room or duplicates.")
     
     # Print some sample entries to verify section names are clean
     print("\nSample entries:")

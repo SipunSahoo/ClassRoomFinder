@@ -1,53 +1,286 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Vacant Classroom Finder</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        body { background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); color: #333; min-height: 100vh; padding: 20px; display: flex; justify-content: center; align-items: center; }
-        .container { width: 100%; max-width: 1000px; background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.18); }
-        header { text-align: center; padding: 20px; margin-bottom: 20px; color: white; }
-        header h1 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
-        header p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; opacity: 0.9; }
-        .search-options { display: flex; gap: 15px; margin-bottom: 25px; }
-        .option-btn { flex: 1; padding: 15px; background: rgba(255, 255, 255, 0.2); border: none; border-radius: 12px; color: white; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; backdrop-filter: blur(5px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .option-btn.active { background: rgba(123, 74, 203, 0.6); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); }
+       /* ───────────────  GLOBAL  ─────────────── */
 
-        .search-panel { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 25px; margin-bottom: 25px; border: 1px solid rgba(255, 255, 255, 0.1); }
-        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .form-group { margin-bottom: 0; }
-        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: white; }
-        .form-control { width: 100%; padding: 14px 16px; background: rgba(255, 255, 255, 0.85); border: none; border-radius: 10px; font-size: 1rem; transition: all 0.3s; color: #333; }
-        .form-control:focus { outline: none; box-shadow: 0 0 0 3px rgba(166, 130, 255, 0.5); }
-        .btn { padding: 14px 25px; background: rgba(123, 74, 203, 0.8); color: white; border: none; border-radius: 10px; cursor: pointer; font-size: 1.1rem; font-weight: 600; transition: all 0.3s; width: 100%; backdrop-filter: blur(5px); margin-top: 10px; }
-
-        .results { margin-top: 30px; }
-        .results h3 { margin-bottom: 15px; color: white; text-align: center; font-size: 1.5rem; }
-        .classroom-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
-        .classroom-card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 20px; border: 1px solid rgba(255, 255, 255, 0.1); color: white; transition: transform 0.3s; }
-
-        .classroom-card h4 { font-size: 1.3rem; margin-bottom: 10px; color: white; text-align: center; }
-        .classroom-card p { margin-bottom: 8px; display: flex; align-items: flex-start; gap: 10px; }
-        .classroom-card p i { margin-top: 4px; }
-        .status { display: inline-block; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-top: 10px; text-align: center; width: 100%; }
-        .status-vacant { background: rgba(13, 228, 102, 0.767); color: #fff; border: 1px solid rgba(46, 204, 113, 0.5); }
-        .status-occupied { background: rgba(241, 100, 18, 0.705); color: #fff; border: 1px solid rgba(231, 76, 60, 0.5); }
-        .footer { text-align: center; margin-top: 40px; color: white; opacity: 0.8; font-size: 0.9rem; }
-        .current-time { text-align: center; color: white; margin-bottom: 20px; font-size: 1.2rem; font-weight: 500; }
-@media (max-width: 768px) { 
-    .form-grid { grid-template-columns: 1fr; } 
-    .classroom-list { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; }
-    .classroom-card { padding: 10px; min-width: 100px; }
-    .classroom-card h4 { font-size: 1rem; margin-bottom: 5px; }
-    .classroom-card p { font-size: 0.8rem; margin-bottom: 5px; }
-    .status { font-size: 0.7rem; padding: 4px 8px; margin-top: 5px; }
-    .search-options { flex-direction: column; } 
-    header h1 { font-size: 2rem; } 
-    header p { font-size: 1rem; } 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Segoe UI", sans-serif;
 }
+
+body {
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Modern dark theme background */
+    background: radial-gradient(circle at top left, #3a1c71, #1f0a35 30%, #000 90%);
+    background-attachment: fixed;
+}
+
+/* Container = Glass panel */
+.container {
+    width: 100%;
+    max-width: 1000px;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(25px) saturate(1.8);
+    border-radius: 22px;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6),
+                inset 0 0 40px rgba(255, 255, 255, 0.04);
+}
+
+/* ─────────────── HEADER ─────────────── */
+
+header {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #e5d9ff, #a786ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+header p {
+    font-size: 1.15rem;
+    opacity: 0.8;
+}
+
+/* ─────────────── CURRENT TIME ─────────────── */
+
+.current-time {
+    text-align: center;
+    color: #e6e6e6;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+/* ─────────────── SEARCH MODE BUTTONS ─────────────── */
+
+.search-options {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.option-btn {
+    flex: 1;
+
+    padding: 14px;
+    border-radius: 14px;
+
+    background: rgba(255, 255, 255, 0.07);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.option-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.option-btn.active {
+    background: linear-gradient(135deg, #7b2ff7, #9f44ff);
+    box-shadow: 0 4px 15px rgba(140, 59, 255, 0.4);
+}
+
+/* ─────────────── SEARCH PANEL (Glass Box) ─────────────── */
+
+.search-panel {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(20px);
+    padding: 22px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+/* ─────────────── FORM ELEMENTS ─────────────── */
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.form-group label {
+    color: #dcdcdc;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 14px;
+
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    color: #fff;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #b67bff;
+    box-shadow: 0 0 0 3px rgba(182, 123, 255, 0.35);
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #7b2ff7, #9f44ff);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 20px rgba(140, 59, 255, 0.4);
+}
+
+/* ─────────────── RESULTS ─────────────── */
+
+.results h3 {
+    color: #e8e8e8;
+    text-align: center;
+    font-size: 1.35rem;
+    margin-bottom: 14px;
+}
+
+.classroom-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+}
+
+/* ─────────────── CLASSROOM CARD ─────────────── */
+
+.classroom-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 16px;
+    padding: 18px;
+
+    backdrop-filter: blur(20px);
+
+    transition: 0.25s ease;
+    color: #fff;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5),
+                inset 0 0 20px rgba(255,255,255,0.03);
+}
+
+.classroom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.6);
+}
+
+.classroom-card h4 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+/* Text lines */
+.classroom-card p {
+    margin-bottom: 8px;
+    display: flex;
+    gap: 10px;
+    color: #eaeaea;
+}
+
+/* ─────────────── STATUS BADGES ─────────────── */
+
+.status {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+    padding: 8px 12px;
+    border-radius: 20px;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.status-vacant {
+    background: rgba(0, 255, 90, 0.7);
+    border: 1px solid rgba(46, 204, 113, 0.5);
+}
+
+.status-occupied {
+    background: rgba(255, 50, 20, 0.7);
+    border: 1px solid rgba(231, 76, 60, 0.5);
+}
+
+/* ─────────────── FOOTER ─────────────── */
+
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #cfcfcf;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+/* ─────────────── RESPONSIVE ─────────────── */
+
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* FIX SELECT DROPDOWN VISIBILITY */
+
+select,
+.form-control {
+    color: #fff !important;
+}
+
+/* Dropdown list (the opened menu) */
+select option {
+    background: #1d1b27 !important;  /* dark background */
+    color: #ffffff !important;       /* visible text */
+    padding: 10px;
+}
+
+/* Hovered option */
+select option:hover {
+    background: #7b2ff7 !important;
+    color: #fff !important;
+}
+
+
     </style>
 </head>
 <body>
@@ -67,22 +300,33 @@
         </div>
 
         <div class="search-panel" id="live-search-panel">
-            <div class="form-group">
-                <label for="live-floor">Select Floor</label>
-                <select class="form-control" id="live-floor" onchange="findClassrooms('live')">
-                    <option value="all">All Floors</option>
-                    <option value="1">Ground Floor</option>
-                    <option value="2">First Floor</option>
-                    <option value="3">Second Floor</option>
-                    <option value="4">Third Floor</option>
-                    <option value="5">Fourth Floor</option>
-                    <option value="6">Fifth Floor</option>
-                </select>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="live-floor">Select Floor</label>
+                    <select class="form-control" id="live-floor" onchange="findClassrooms('live')">
+                        <option value="all">All Floors</option>
+                        <option value="1">Ground Floor</option>
+                        <option value="2">First Floor</option>
+                        <option value="3">Second Floor</option>
+                        <option value="4">Third Floor</option>
+                        <option value="5">Fourth Floor</option>
+                        <option value="6">Fifth Floor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="live-type">Class Type</label>
+                    <select class="form-control" id="live-type" onchange="findClassrooms('live')">
+                        <option value="ALL">All</option>
+                        <option value="CR">CR</option>
+                        <option value="LT">LT</option>
+                        <option value="LABS">LABS</option>
+                    </select>
+                </div>
             </div>
         </div>
 
         <div class="search-panel" id="custom-search-panel" style="display: none;">
-             <div class="form-grid">
+            <div class="form-grid">
                 <div class="form-group">
                     <label for="custom-floor">Select Floor</label>
                     <select class="form-control" id="custom-floor">
@@ -106,10 +350,23 @@
                     </select>
                 </div>
             </div>
-            <div class="form-group" style="margin-top: 20px;">
-                <label for="custom-time">Select Time</label>
-                <input type="time" class="form-control" id="custom-time" value="09:30">
+
+            <div class="form-grid" style="margin-top:14px;">
+                <div class="form-group">
+                    <label for="custom-time">Select Time</label>
+                    <input type="time" class="form-control" id="custom-time" value="09:30">
+                </div>
+                <div class="form-group">
+                    <label for="custom-type">Class Type</label>
+                    <select class="form-control" id="custom-type">
+                        <option value="ALL">All</option>
+                        <option value="CR">CR</option>
+                        <option value="LT">LT</option>
+                        <option value="LABS">LABS</option>
+                    </select>
+                </div>
             </div>
+
             <button class="btn" onclick="findClassrooms('custom')"><i class="fas fa-search"></i> Find Classrooms</button>
         </div>
 
@@ -124,95 +381,172 @@
     </div>
 
     <script>
-        let scheduledClasses = [];
-        let allClassrooms = [];
+        // canonical classroom list (internal id, display label, floor)
+        const allClassrooms = [
+            // Ground Floor (1)
+            { id: "CR101", display: "CR101", floor: 1 },
+            { id: "CR102", display: "CR102", floor: 1 },
+            { id: "CR103", display: "CR103", floor: 1 },
+            { id: "CR104", display: "CR104", floor: 1 },
+            { id: "CR105", display: "CR105", floor: 1 },
+            { id: "LAB1_G", display: "LAB1", floor: 1 },
+            { id: "LAB2_G", display: "LAB2", floor: 1 },      // internal LAB2_G (shows "LAB2")
+            { id: "LAB10", display: "LAB10", floor: 1 },
+            { id: "UBUNTULAB1", display: "UBUNTU LAB", floor: 1 },
 
-        function generateClassroomList() {
-            const rooms = [];
-            const roomOrder = { "CR": 1, "LT": 2, "LAB": 3, "UBUNTU": 4, "TCL": 5, "VENUE": 6 };
+            // First Floor (2)
+            { id: "CR201", display: "CR201", floor: 2 },
+            { id: "CR202", display: "CR202", floor: 2 },
+            { id: "CR203", display: "CR203", floor: 2 },
+            { id: "CR204", display: "CR204", floor: 2 },
+            { id: "CR205", display: "CR205", floor: 2 },
+            { id: "CR206", display: "CR206", floor: 2 },
+            { id: "CR207", display: "CR207", floor: 2 },
+            { id: "LT201", display: "LT201", floor: 2 },
+            { id: "LT202", display: "LT202", floor: 2 },
+            { id: "LAB2_F", display: "LAB2", floor: 2 },     // internal LAB2_F (shows "LAB2")
+            { id: "LAB9", display: "LAB9", floor: 2 },
+            { id: "TCL1", display: "TCL1", floor: 2 },
+            { id: "TCL2", display: "TCL2", floor: 2 },
 
-            // Ground Floor (floor 1)
-            for (let roomNum = 1; roomNum <= 7; roomNum++) rooms.push(`CR10${roomNum}`);
-            rooms.push("UBUNTULAB1");
-            rooms.push("UBUNTULAB2"); // Added missing room
-            rooms.push("TCL1");
-            rooms.push("LAB1"); // Added missing room
+            // Second Floor (3)
+            { id: "CR301", display: "CR301", floor: 3 },
+            { id: "CR302", display: "CR302", floor: 3 },
+            { id: "CR304", display: "CR304", floor: 3 },
+            { id: "CR305", display: "CR305", floor: 3 },
+            { id: "LT301", display: "LT301", floor: 3 },
+            { id: "LT302", display: "LT302", floor: 3 },
+            { id: "LAB3", display: "LAB3", floor: 3 },
+            { id: "LAB8", display: "LAB8", floor: 3 },
+            { id: "TCL3", display: "TCL3", floor: 3 },
+            { id: "TCL4", display: "TCL4", floor: 3 },
 
-            // Floors 2 to 6
-            for (let floor = 2; floor <= 6; floor++) {
-                for (let roomNum = 1; roomNum <= 7; roomNum++) rooms.push(`CR${floor}0${roomNum}`);
-                rooms.push(`LT${floor}01`);
-                rooms.push(`LT${floor}02`);
-                rooms.push(`LAB${floor}`);
-                if (floor <= 3) {
-                    rooms.push(`TCL${floor}`);
-                }
-                if (floor === 4) {
-                    rooms.push("TCL4"); // Added missing room
-                }
+            // Third Floor (4)
+            { id: "LAB4", display: "LAB4", floor: 4 },
+            { id: "CR401", display: "CR401", floor: 4 },
+            { id: "CR402", display: "CR402", floor: 4 },
+            { id: "LAB7", display: "LAB7", floor: 4 },
+            { id: "CR403", display: "CR403", floor: 4 },
+            { id: "CR406", display: "CR406", floor: 4 },
+            { id: "LT401", display: "LT401", floor: 4 },
+            { id: "LT402", display: "LT402", floor: 4 },
+            { id: "CR405", display: "CR405", floor: 4 },
+            { id: "CR404", display: "CR404", floor: 4 },
+
+            // Fourth Floor (5)
+            { id: "GCLAB1", display: "G.C. LAB 1", floor: 5 },
+            { id: "GCLAB2", display: "G.C. LAB 2", floor: 5 },
+            { id: "LT501", display: "LT501", floor: 5 },
+            { id: "LT502", display: "LT502", floor: 5 },
+            { id: "CR504", display: "CR504", floor: 5 },
+            { id: "CR503", display: "CR503", floor: 5 },
+            { id: "LAB5", display: "LAB5", floor: 5 },
+            { id: "CR501", display: "CR501", floor: 5 },
+            { id: "CR502", display: "CR502", floor: 5 },
+
+            // Fifth Floor (6)
+            { id: "CR601", display: "CR601", floor: 6 },
+            { id: "CR602", display: "CR602", floor: 6 },
+            { id: "CR603", display: "CR603", floor: 6 },
+            { id: "CR604", display: "CR604", floor: 6 },
+            { id: "CR605", display: "CR605", floor: 6 },
+            { id: "LAB6", display: "LAB6", floor: 6 },
+            { id: "CR606", display: "CR606", floor: 6 },
+            { id: "LT601", display: "LT601", floor: 6 },
+            { id: "LT602", display: "LT602", floor: 6 },
+        ];
+
+        let scheduledClasses = []; // loaded from JSON
+
+        // Utility: normalize a string for comparisons
+        function normalize(str) {
+            return String(str || '').replace(/[^A-Za-z0-9]/g, '').toUpperCase();
+        }
+
+        // Determine if a classroom belongs to a selected type
+        function classroomMatchesType(classroomObj, type) {
+            if (!type || type === 'ALL') return true;
+            const id = normalize(classroomObj.id);
+            const disp = normalize(classroomObj.display);
+
+            if (type === 'CR') {
+                return id.startsWith('CR');
             }
-
-            // Add special venues
-            rooms.push("VENUE1"); // Added missing venue
-            rooms.push("VENUE2"); // Added missing venue
-            rooms.push("LAB9"); // Added missing lab
-
-            // Custom sort logic: by floor, then by type (CR, LT, LAB, UBUNTU, TCL), then by name
-            return rooms.sort((a, b) => {
-                const getFloor = (name) => {
-                    const digits = name.replace(/[^0-9]/g, '');
-                    return digits ? parseInt(digits.charAt(0)) : 1; // default to 1 if no digits
-                };
-                const getType = (name) => {
-                    if (name.includes("UBUNTU")) return "UBUNTU";
-                    if (name.includes("TCL")) return "TCL";
-                    return name.split(/[- ]/)[0];
-                };
-
-                const floorA = getFloor(a);
-                const floorB = getFloor(b);
-                if (floorA !== floorB) return floorA - floorB;
-
-                const typeA = getType(a);
-                const typeB = getType(b);
-                if (roomOrder[typeA] !== roomOrder[typeB]) return roomOrder[typeA] - roomOrder[typeB];
-
-                return a.localeCompare(b, undefined, { numeric: true });
-            });
+            if (type === 'LT') {
+                return id.startsWith('LT');
+            }
+            if (type === 'LABS') {
+                // LABS should include: LABx, UBUNTU LAB, GCLAB, TCLx
+                if (id.startsWith('LAB')) return true;       // LAB1, LAB2_G, LAB2_F, etc.
+                if (disp.includes('UBUNTU')) return true;    // UBUNTULAB1 -> display "UBUNTU LAB"
+                if (id.startsWith('GCLAB')) return true;     // GCLAB1, GCLAB2
+                if (id.startsWith('TCL')) return true;       // TCL1..TCL4
+                // fallback: display contains LAB
+                if (disp.includes('LAB')) return true;
+                return false;
+            }
+            return true;
         }
 
+        // When JSON uses "LAB2" we want it to match both LAB2_G and LAB2_F (display = "LAB2"),
+        // and when JSON uses the internal id (if any), it should match too.
+        function roomMatches(classroomObj, jsonRoomStr) {
+            if (!jsonRoomStr) return false;
+            const jsonNorm = normalize(jsonRoomStr);
+            const idNorm = normalize(classroomObj.id);
+            const dispNorm = normalize(classroomObj.display);
+
+            if (jsonNorm === idNorm) return true;     // exact internal id match
+            if (jsonNorm === dispNorm) return true;   // display name match (e.g., "LAB2")
+            return false;
+        }
+
+        // Convert "HH:MM" to minutes since 00:00
         function timeToMinutes(timeStr) {
-            if (!timeStr || typeof timeStr !== 'string' || !timeStr.includes(':')) return 0;
-            const [hours, minutes] = timeStr.split(':').map(Number);
-            let adjustedHours = hours;
-            if (hours < 8) adjustedHours += 12; // Adjust for PM times
-            return (adjustedHours * 60) + minutes;
+            if (!timeStr || typeof timeStr !== "string") return NaN;
+            const parts = timeStr.split(':');
+            if (parts.length < 2) return NaN;
+            const h = parseInt(parts[0], 10);
+            const m = parseInt(parts[1], 10);
+            if (Number.isNaN(h) || Number.isNaN(m)) return NaN;
+            return h * 60 + m;
         }
 
-        document.addEventListener('DOMContentLoaded', () => {
-            allClassrooms = generateClassroomList();
+        // Load JSON & init
+        document.addEventListener("DOMContentLoaded", () => {
             fetch("extracted data/timetable.json")
-                .then(response => {
-                    if (!response.ok) throw new Error(`Could not load timetable.json, status: ${response.status}`);
-                    return response.json();
+                .then(resp => {
+                    if (!resp.ok) throw new Error("timetable.json not found");
+                    return resp.json();
                 })
                 .then(data => {
-                    scheduledClasses = data;
-                    console.log("✅ Timetable data loaded.");
+                    scheduledClasses = Array.isArray(data) ? data : [];
+                    scheduledClasses = scheduledClasses.map(entry => ({
+                        room: entry.room,
+                        day: entry.day,
+                        startTime: entry.startTime,
+                        endTime: entry.endTime,
+                        subjectCode: entry.subjectCode || "",
+                        section: entry.section || ""
+                    }));
                     findClassrooms('live');
                 })
                 .catch(err => {
-                    console.error(err);
-                    document.getElementById('results-container').innerHTML = `<p style="color: #ffcccc; text-align: center; grid-column: 1 / -1;">Error: timetable.json could not be loaded.</p>`;
+                    console.warn("Timetable JSON not loaded or missing — continuing with empty schedule.", err);
+                    scheduledClasses = [];
+                    findClassrooms('live');
                 });
 
-            setInterval(updateClock, 1000);
             updateClock();
+            setInterval(updateClock, 1000);
             setupPanelSwitching();
         });
 
         function updateClock() {
-            document.getElementById('live-clock').textContent = new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
+            const el = document.getElementById('live-clock');
+            if (!el) return;
+            const now = new Date();
+            el.textContent = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
         }
 
         function setupPanelSwitching() {
@@ -222,133 +556,120 @@
             const customPanel = document.getElementById('custom-search-panel');
 
             liveBtn.addEventListener('click', () => {
-                liveBtn.classList.add('active'); customBtn.classList.remove('active');
-                livePanel.style.display = 'block'; customPanel.style.display = 'none';
+                liveBtn.classList.add('active');
+                customBtn.classList.remove('active');
+                livePanel.style.display = 'block';
+                customPanel.style.display = 'none';
                 findClassrooms('live');
             });
 
             customBtn.addEventListener('click', () => {
-                customBtn.classList.add('active'); liveBtn.classList.remove('active');
-                livePanel.style.display = 'none'; customPanel.style.display = 'block';
+                customBtn.classList.add('active');
+                liveBtn.classList.remove('active');
+                livePanel.style.display = 'none';
+                customPanel.style.display = 'block';
             });
         }
 
+        // Core: filter by floor + type, then compute status
         function findClassrooms(mode) {
-            let day, time, floor, heading;
             const now = new Date();
-            const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+            const days = ['SUN','MON','TUE','WED','THU','FRI','SAT'];
 
+            let day, time, floor, type;
             if (mode === 'live') {
                 day = days[now.getDay()];
-                time = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+                time = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
                 floor = document.getElementById('live-floor').value;
-                heading = `Classroom Status Right Now (${day} ${time})`;
+                type = document.getElementById('live-type').value;
+                document.getElementById('results-heading').innerText = `Classroom Status Right Now (${day} ${time})`;
             } else {
                 day = document.getElementById('custom-day').value;
                 time = document.getElementById('custom-time').value;
                 floor = document.getElementById('custom-floor').value;
-                heading = `Classroom Status on ${day} at ${time}`;
+                type = document.getElementById('custom-type').value;
+                document.getElementById('results-heading').innerText = `Classroom Status on ${day} at ${time}`;
             }
 
-            document.getElementById('results-heading').innerText = heading;
-
-            const filteredRooms = allClassrooms.filter(room => {
-                if (floor === 'all') return true;
-                const floorNumber = parseInt(floor);
-                const getFloor = (name) => parseInt(name.replace(/[^0-9]/g, '').charAt(0));
-                return getFloor(room) === floorNumber;
+            // filter classroom objects by floor & type
+            const filtered = allClassrooms.filter(c => {
+                const floorOk = (floor === 'all') ? true : Number(c.floor) === Number(floor);
+                const typeOk = classroomMatchesType(c, type);
+                return floorOk && typeOk;
             });
 
-            displayResults(filteredRooms, day, time);
+            displayResults(filtered, day, time);
         }
-        
-        function getRoomStatus(roomName, day, time) {
-            const normalize = (name) => {
-                let processed = name.toUpperCase().replace(/[-_\s]/g, '');
-                if (processed.includes('UBUNTULAB')) {
-                    return processed; // keep UBUNTU prefix
-                }
-                if (processed.includes('TCL')) {
-                    return processed; // keep TCL prefix as is
-                }
-                const labMatch = processed.match(/LAB(\d+)/);
-                if (labMatch) return `LAB${labMatch[1]}`;
-                return processed;
-            };
 
-            const normalizedRoomName = normalize(roomName);
-            const searchTimeInMinutes = timeToMinutes(time);
+        // Determine if a classroom is occupied at given day/time
+        function getRoomStatus(classroomObj, day, time) {
+            const searchMinutes = timeToMinutes(time);
+            if (isNaN(searchMinutes)) return { status: 'Vacant', details: [] };
 
-            console.log(`Checking room: ${roomName} -> ${normalizedRoomName}`);
+            const matches = scheduledClasses.filter(entry => {
+                if (!entry || !entry.room) return false;
+                if (entry.day !== day) return false;
 
-            const occupiedClasses = scheduledClasses.filter(c => {
-                if (!c.room || typeof c.room !== 'string') return false;
+                if (!roomMatches(classroomObj, entry.room)) return false;
 
-                const normalizedJsonRoom = normalize(c.room);
-                console.log(`JSON room: ${c.room} -> ${normalizedJsonRoom}`);
+                const start = timeToMinutes(entry.startTime);
+                const end = timeToMinutes(entry.endTime);
+                if (isNaN(start) || isNaN(end)) return false;
 
-                if (normalizedJsonRoom === normalizedRoomName) {
-                    const startTimeInMinutes = timeToMinutes(c.startTime);
-                    // Fix: Use endTime as exclusive upper bound without subtracting 1 minute
-                    const logicalEndTimeInMinutes = timeToMinutes(c.endTime);
-                    const isDayMatch = (c.day === day);
-                    const isTimeMatch = (searchTimeInMinutes >= startTimeInMinutes && searchTimeInMinutes < logicalEndTimeInMinutes);
-                    console.log(`Match found for ${normalizedRoomName}: day=${isDayMatch}, time=${isTimeMatch}`);
-                    return isDayMatch && isTimeMatch;
-                }
-                return false;
+                // include start inclusive, end exclusive
+                return searchMinutes >= start && searchMinutes < end;
             });
 
-            console.log(`Room ${roomName} status: ${occupiedClasses.length > 0 ? 'Occupied' : 'Vacant'}`);
-            return occupiedClasses.length > 0 ? { status: 'Occupied', details: occupiedClasses } : { status: 'Vacant', details: null };
+            return matches.length > 0 ? { status: 'Occupied', details: matches } : { status: 'Vacant', details: [] };
         }
 
-        function displayResults(classrooms, day, time) {
-            const resultsContainer = document.getElementById('results-container');
-            resultsContainer.innerHTML = '';
+        // Render results
+        function displayResults(classroomObjs, day, time) {
+            const container = document.getElementById('results-container');
+            container.innerHTML = '';
 
-            if (classrooms.length === 0) {
-                resultsContainer.innerHTML = '<p style="color: white; text-align: center; grid-column: 1 / -1;">No classrooms match the selected floor.</p>';
+            if (!classroomObjs || classroomObjs.length === 0) {
+                container.innerHTML = '<p style="color: #fff; text-align: center; grid-column: 1 / -1;">No classrooms match the selected filters.</p>';
                 return;
             }
 
-            classrooms.forEach(roomName => {
-                const roomInfo = getRoomStatus(roomName, day, time);
+            classroomObjs.forEach(obj => {
+                const info = getRoomStatus(obj, day, time);
                 const card = document.createElement('div');
                 card.className = 'classroom-card';
+
+                const title = obj.display || obj.id;
+
                 let detailsHTML = '';
-                let statusClass = '';
-
-                if (roomInfo.status === 'Occupied') {
-                    statusClass = 'occupied';
-                    // Correctly group subjects and sections for combined classes
-                    const subjects = [...new Set(roomInfo.details.map(c => c.subjectCode))].join(', ');
-                    const sections = roomInfo.details.map(c => c.section).join(', ');
-                    const { startTime, endTime } = roomInfo.details[0];
-
+                if (info.status === 'Occupied') {
+                    const subjects = [...new Set(info.details.map(d => d.subjectCode).filter(Boolean))].join(', ');
+                    const sections = [...new Set(info.details.map(d => d.section).filter(Boolean))].join(', ');
+                    const first = info.details[0];
                     detailsHTML = `
                         <p><i class="fas fa-book"></i> <strong>Subject(s):</strong> ${subjects || "-"}</p>
                         <p><i class="fas fa-users"></i> <strong>Section(s):</strong> ${sections || "-"}</p>
-                        <p><i class="fas fa-clock"></i> <strong>Scheduled:</strong> ${startTime} - ${endTime}</p>
+                        <p><i class="fas fa-clock"></i> <strong>Scheduled:</strong> ${first.startTime} - ${first.endTime}</p>
                     `;
                 } else {
-                    statusClass = 'vacant';
                     detailsHTML = `
                         <p><i class="fas fa-check-circle"></i> This classroom is currently available.</p>
-                        <p style="opacity:0;">-</p> 
+                        <p style="opacity:0;">-</p>
                         <p style="opacity:0;">-</p>
                     `;
                 }
 
                 card.innerHTML = `
-                    <h4>${roomName.startsWith("CR") ? "Room " : ""}${roomName}</h4>
+                    <h4>${title}</h4>
                     ${detailsHTML}
-                    <div class="status status-${statusClass}">${roomInfo.status.toUpperCase()}</div>
+                    <div class="status ${info.status === 'Vacant' ? 'status-vacant' : 'status-occupied'}">${info.status.toUpperCase()}</div>
                 `;
-                resultsContainer.appendChild(card);
-                
+                container.appendChild(card);
             });
         }
+
+        // For debugging: expose classroom list
+        window.__CLASSROOMS = allClassrooms.map(c => ({ id: c.id, display: c.display, floor: c.floor }));
     </script>
 </body>
 </html>
+
